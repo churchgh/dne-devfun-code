@@ -50,7 +50,7 @@ def calculate_number_items(number_dives):
 def create_dive_finds(number_dives):
     finds = generate_find()
     num = calculate_number_items(number_dives)
-    return "You found {} {}\n".format(num, finds)       
+    return "You found {} stanky {}\n".format(num, finds)       
     
     """Make and return the items the scuba diver finds in this dive.
     The message should include the diver's find and amounts.
